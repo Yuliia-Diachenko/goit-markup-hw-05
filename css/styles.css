@@ -718,6 +718,8 @@ input::placeholder {
 }
 .checkbox-container {
     margin-bottom: 24px;
+    display: flex;
+
 
 }
 .input-checkbox {
@@ -740,6 +742,7 @@ input::placeholder {
     align-items: center; 
     justify-content: center; 
     fill: transparent; 
+    margin-right: 8px;
 
 }
 span .input-checkbox:checked {     
@@ -755,6 +758,7 @@ text-decoration-line: underline;
 }
 .form-button {
     display: block; 
+    margin-left: 96px;
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
@@ -769,9 +773,6 @@ text-decoration-line: underline;
     border-radius: 4px; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
  
-
-}
-.icon-textarea {
 
 }
 
