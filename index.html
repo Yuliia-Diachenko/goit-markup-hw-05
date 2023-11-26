@@ -37,20 +37,7 @@
             <div class="container hero-container">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
             <button class="hero-button" type="button">Order Service</button>   
-            <!-- ======================form hero================= -->
-            <form class="form" name="feedback_form_hero" autocomplete="off" novalidate>
-                <p class="form-title">Leave your contacts and we will call you back</p>
-                <label class="form-label">Name<input class="input" type="text" name="Name" autofocus/></label>
-                <label class="form-label">Phone<input class="input" type="tel" name="Phone"/></label>
-                <label class="form-label">Email<input class="input" type="email" name="Email"/></label>
-                <label class="form-label">Comment<textarea class="input" name="Comment" rows="5" ></textarea></label>               
-                <label class="form-label">
-                    <input type="checkbox" name="accept" value="isirah" checked />
-                    I accept the terms and conditions of the <a href="" class="checkbox-link">Privacy Policy</a> 
-                </label>
-                <label class="form-label"><button type="submit">Send</button></label>
-             <!-- ======================form hero================= -->  
-            </form>
+          
         </div>        
         </section>
 <!-- section specifics -->
@@ -299,6 +286,7 @@
         </div>
         </section>
     </main>
+    <!-- ====================================FOOTER======================================== -->
     <footer class="footer">
         <div class="container footer-container">
         
@@ -346,7 +334,7 @@
             <form class="footer-form">
                 <label class="footer-form-label">
                     <input type="email" name="e-mail" placeholder="E-mail" class="footer-form-input"></label>
-<button type="submit" class="footerr-form-button"><svg class="footer-form-button-icon" width="24" height="24"><use href="./images/icons_modal.svg#icon-Frame"></use></svg> Subscribe</button>
+<button type="submit" class="footer-form-button"><svg class="footer-form-button-icon" width="24" height="24"><use href="./images/icons_modal.svg#icon-Frame"></use></svg>Subscribe</button>
                 
 
             </form>
@@ -355,5 +343,43 @@
     </div>
 
     </footer>
+    <div class="modal-window-container">
+<div class="modal-window">
+    <button type="submit" class="modal-window-button"><svg class="button-close" width="8" height="8"><use href="./images/icons_modal.svg#icon-close"></use></svg></button>
+    <p class="form-title">Leave your contacts and we will call you back</p>
+    <form class="form" name="feedback_form_hero" autocomplete="off" novalidate>
+        <div class="container-form">
+            <label class="form-label"  for="user-name">Name</label>
+            <div class="input-icon"><input id="user-name" class="input" type="text" name="user-name" autofocus/></div>  
+            <svg class="icon-person" width="18" height="24">
+                <use  href="./images/icons_modal.svg#icon-person">
+                </use>
+            </svg>
+            <div class="container-form">
+                <label class="form-label"  for="user-phone">Phone</label>
+                <div class="input-icon"><input id="user-phone" class="input" type="text" name="user-phone" autofocus/></div>  
+                <svg class="icon-person" width="18" height="24">
+                    <use  href="./images/icons_modal.svg#icon-phone">
+                    </use>
+                </svg>
+        </div>
+        <div class="container-form">
+            <label class="form-label"  for="user-email">Email</label>
+            <div class="input-icon"><input id="user-email" class="input" type="text" name="user-email" autofocus/></div>  
+            <svg class="icon-person" width="18" height="24">
+                <use href="./images/icons_modal.svg#icon-email">
+                </use>
+            </svg>
+    </div>
+    <div class="container-form-textarea">
+        <label class="form-label" for="user-email">Comment</label>
+        <textarea name="user-comment" id="user-comment" cols="30" rows="10"  placeholder="Text input" class="textarea-modal"></textarea>
+        <div class="checkbox-container"><input id="user-privacy" class="input input-checkbox visually-hidden" type="checkbox" name="user-privacy" value="true"  autofocus/></div>  
+        <label class="form-label-checkbox" for="user-privacy">I accept the terms and conditions of the</label>
+        <span class="form-label-span"><svg class="icon-textarea" width="10" height="10"><use href="./images/icons_modal.svg#icon-Property-1click"></use></svg></span>
+    </div>
+    </form>
+</div>
+    </div>
 </body>
 </html>
