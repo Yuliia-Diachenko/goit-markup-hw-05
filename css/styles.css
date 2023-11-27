@@ -743,12 +743,13 @@ input::placeholder {
     margin-right: 8px;
 
 }
-.form-label-span input[type="checkbox"]:checked {     
+input:checked +.form-label-checkbox > .form-label-span {     
 	background-color: #404bbf;
     border: none; 
     fill: #F4F4FD; 
 
 }
+
 .privacy-policy {
 color: #4d5ae5;
 text-decoration-line: underline;
